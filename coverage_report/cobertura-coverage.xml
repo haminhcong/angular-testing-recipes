@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="287" lines-covered="183" line-rate="0.6376" branches-valid="118" branches-covered="28" branch-rate="0.2373" timestamp="1530030573905" complexity="0" version="0.1">
+<coverage lines-valid="287" lines-covered="183" line-rate="0.6376" branches-valid="118" branches-covered="28" branch-rate="0.2373" timestamp="1530032337909" complexity="0" version="0.1">
   <sources>
     <source>/home/cong/git_repo/angular-testing-recipes</source>
   </sources>
