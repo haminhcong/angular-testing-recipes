@@ -67,7 +67,7 @@ If you want to run the example locally,
 1.  Run `npm install`
 1.  Run `npm test` to execute all the tests
 1.  Run `ng test --single-run` to run and generate junit xml report
-1.  Run `ng test --single-run --code-coverage` to run and generate cobetura coverage xml report
+1.  Run `ng test --watch=false --code-coverage` to run and generate cobetura coverage xml report
 
 By running `npm run test.watch` you can run the tests in watch mode which is particularly useful during development.
 
