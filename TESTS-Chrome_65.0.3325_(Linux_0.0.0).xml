@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 65.0.3325 (Linux 0.0.0)" package="" timestamp="2018-06-26T15:25:14" id="0" hostname="cong-HP-ProBook-450-G1" tests="49" errors="0" failures="0" time="0.727">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"/>
+  </properties>
+  <testcase name="Async Compnent should create" time="0.061" classname="Chrome_65_0_3325_(Linux_0_0_0).Async Compnent"/>
+  <testcase name="Async Compnent should correctly visualize the emitted values from the stream" time="0.028" classname="Chrome_65_0_3325_(Linux_0_0_0).Async Compnent"/>
+  <testcase name="ContentProjectionComponent should greet in italian when the lang is IT" time="0.001" classname="Chrome_65_0_3325_(Linux_0_0_0).ContentProjectionComponent"/>
+  <testcase name="ContentProjectionComponent should greet in german when the lang is DE" time="0.001" classname="Chrome_65_0_3325_(Linux_0_0_0).ContentProjectionComponent"/>
+  <testcase name="ContentProjectionComponent should greet in english by default" time="0" classname="Chrome_65_0_3325_(Linux_0_0_0).ContentProjectionComponent"/>
+  <testcase name="ContentProjectionComponent should create" time="0.026" classname="Chrome_65_0_3325_(Linux_0_0_0).ContentProjectionComponent"/>
+  <testcase name="ContentProjectionComponent should correctly project the title" time="0.026" classname="Chrome_65_0_3325_(Linux_0_0_0).ContentProjectionComponent"/>
+  <testcase name="ContentProjectionComponent should correctly project the body" time="0.02" classname="Chrome_65_0_3325_(Linux_0_0_0).ContentProjectionComponent"/>
+  <testcase name="CounterComponent CounterComponent should count" time="0.027" classname="Chrome_65_0_3325_(Linux_0_0_0).CounterComponent"/>
+  <testcase name="DomTestingComponent should create" time="0.027" classname="Chrome_65_0_3325_(Linux_0_0_0).DomTestingComponent"/>
+  <testcase name="DomTestingComponent should not have the DOM element if boolean is set to false" time="0.017" classname="Chrome_65_0_3325_(Linux_0_0_0).DomTestingComponent"/>
+  <testcase name="DomTestingComponent should have the DOM element if boolean is set to true" time="0.02" classname="Chrome_65_0_3325_(Linux_0_0_0).DomTestingComponent"/>
+  <testcase name="DomTestingComponent clicking the button should toggle visiblity" time="0.014" classname="Chrome_65_0_3325_(Linux_0_0_0).DomTestingComponent"/>
+  <testcase name="DynamicCssClassesComponent should create" time="0.017" classname="Chrome_65_0_3325_(Linux_0_0_0).DynamicCssClassesComponent"/>
+  <testcase name="DynamicCssClassesComponent should have the .alert class if isAlert is set to true" time="0.015" classname="Chrome_65_0_3325_(Linux_0_0_0).DynamicCssClassesComponent"/>
+  <testcase name="DynamicCssClassesComponent should have the .success class if isAlert is set to false" time="0.014" classname="Chrome_65_0_3325_(Linux_0_0_0).DynamicCssClassesComponent"/>
+  <testcase name="DynamicStylesComponent should create" time="0.017" classname="Chrome_65_0_3325_(Linux_0_0_0).DynamicStylesComponent"/>
+  <testcase name="DynamicStylesComponent should correctly set the background style" time="0.012" classname="Chrome_65_0_3325_(Linux_0_0_0).DynamicStylesComponent"/>
+  <testcase name="InputComponent should create" time="0.01" classname="Chrome_65_0_3325_(Linux_0_0_0).InputComponent"/>
+  <testcase name="InputComponent should correctly render the passed @Input value" time="0.01" classname="Chrome_65_0_3325_(Linux_0_0_0).InputComponent"/>
+  <testcase name="NestedComponentTesting Mocking all nested components should create" time="0.009" classname="Chrome_65_0_3325_(Linux_0_0_0).NestedComponentTesting"/>
+  <testcase name="NestedComponentTesting Ignoring nested components should create" time="0.01" classname="Chrome_65_0_3325_(Linux_0_0_0).NestedComponentTesting"/>
+  <testcase name="OutputComponent should create" time="0.012" classname="Chrome_65_0_3325_(Linux_0_0_0).OutputComponent"/>
+  <testcase name="OutputComponent should test the emitter with a Jasmine spy" time="0.018" classname="Chrome_65_0_3325_(Linux_0_0_0).OutputComponent"/>
+  <testcase name="OutputComponent should test the emitter with a simple subscribe" time="0.01" classname="Chrome_65_0_3325_(Linux_0_0_0).OutputComponent"/>
+  <testcase name="OutputComponent should fire the event emitter when triggering an event" time="0.012" classname="Chrome_65_0_3325_(Linux_0_0_0).OutputComponent"/>
+  <testcase name="FilterPipe should be instanciated" time="0.001" classname="Chrome_65_0_3325_(Linux_0_0_0).FilterPipe"/>
+  <testcase name="FilterPipe should return empty array if no items given" time="0.001" classname="Chrome_65_0_3325_(Linux_0_0_0).FilterPipe"/>
+  <testcase name="FilterPipe should return items if no field is given" time="0" classname="Chrome_65_0_3325_(Linux_0_0_0).FilterPipe"/>
+  <testcase name="FilterPipe should return items if no value is given" time="0" classname="Chrome_65_0_3325_(Linux_0_0_0).FilterPipe"/>
+  <testcase name="FilterPipe should filter correctly" time="0.001" classname="Chrome_65_0_3325_(Linux_0_0_0).FilterPipe"/>
+  <testcase name="FilterPipe should filter two items" time="0" classname="Chrome_65_0_3325_(Linux_0_0_0).FilterPipe"/>
+  <testcase name="The App Routing (with custom cmp) should properly redirect to home initially" time="0.031" classname="Chrome_65_0_3325_(Linux_0_0_0).The App Routing (with custom cmp)"/>
+  <testcase name="The App Routing (with custom cmp) should properly navigate back from search to home again" time="0.02" classname="Chrome_65_0_3325_(Linux_0_0_0).The App Routing (with custom cmp)"/>
+  <testcase name="The App Routing automatically redirects to home when the app starts" time="0.021" classname="Chrome_65_0_3325_(Linux_0_0_0).The App Routing"/>
+  <testcase name="The App Routing automatically redirects to search when invoking /search" time="0.021" classname="Chrome_65_0_3325_(Linux_0_0_0).The App Routing"/>
+  <testcase name="AsyncService should have a service instance" time="0.01" classname="Chrome_65_0_3325_(Linux_0_0_0).AsyncService"/>
+  <testcase name="AsyncService should handle a simple async scenario" time="0.111" classname="Chrome_65_0_3325_(Linux_0_0_0).AsyncService"/>
+  <testcase name="AsyncService should work with fakeAsync" time="0.012" classname="Chrome_65_0_3325_(Linux_0_0_0).AsyncService"/>
+  <testcase name="GreetingService Manually instantiating service should greet properly" time="0" classname="Chrome_65_0_3325_(Linux_0_0_0).GreetingService"/>
+  <testcase name="GreetingService Configuring via TestBed Injecting via testcase level inject should have a service instance" time="0.006" classname="Chrome_65_0_3325_(Linux_0_0_0).GreetingService"/>
+  <testcase name="GreetingService Configuring via TestBed Injecting via test suite level inject should have a service instance" time="0.005" classname="Chrome_65_0_3325_(Linux_0_0_0).GreetingService"/>
+  <testcase name="GreetingService Configuring via TestBed Injecting via TestBed.get() should have a service instance" time="0.007" classname="Chrome_65_0_3325_(Linux_0_0_0).GreetingService"/>
+  <testcase name="GreetingService Configuring via TestBed Testing service functions should greet properly" time="0.005" classname="Chrome_65_0_3325_(Linux_0_0_0).GreetingService"/>
+  <testcase name="RemoteService (fake call with Jasmine) should have a service instance" time="0.01" classname="Chrome_65_0_3325_(Linux_0_0_0).RemoteService (fake call with Jasmine)"/>
+  <testcase name="RemoteService (fake call with Jasmine) should return the mocked data in the subscribe" time="0.008" classname="Chrome_65_0_3325_(Linux_0_0_0).RemoteService (fake call with Jasmine)"/>
+  <testcase name="RemoteService (fake call with Jasmine) should not invoke the error throwing function since we mocked it" time="0.006" classname="Chrome_65_0_3325_(Linux_0_0_0).RemoteService (fake call with Jasmine)"/>
+  <testcase name="RemoteService should have a service instance" time="0.008" classname="Chrome_65_0_3325_(Linux_0_0_0).RemoteService"/>
+  <testcase name="RemoteService should return the json" time="0.009" classname="Chrome_65_0_3325_(Linux_0_0_0).RemoteService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
