@@ -1,0 +1,19 @@
+// workaround to check out the Jenkinsfile of the tag because parameters are not replaced
+// when using the "Pipeline script from SCM" option
+node{
+    stage('Checkout source code') {
+        echo "${env.WORKSPACE}"
+        checkout changelog: true, poll: true, scm: [
+                $class                           : 'GitSCM', branches: [[name: "${env.gitlabAfter}"]],
+                doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [],
+                userRemoteConfigs                : [
+                        [credentialsId: '1a199e0b-8b89-45e4-b85a-d400bc95dd0c',
+                         url          : 'ssh://git@192.168.122.10:10022/conghm1/angular_test.git']
+                ]
+        ]
+        sh 'ls -al'
+
+
+    }
+    //load 'Jenkinsfile-test'
+}
