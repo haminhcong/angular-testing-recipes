@@ -12,8 +12,7 @@ node{
                 ]
         ]
         sh 'ls -al'
-
-
+        def mainStages = load 'jenkinsfile_script'
+        mainStages.angularAutoTest()
     }
-    //load 'Jenkinsfile-test'
 }

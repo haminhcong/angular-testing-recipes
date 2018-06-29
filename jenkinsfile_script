@@ -1,0 +1,8 @@
+def angularAutoTest() {
+    node{
+        stage("Check"){
+            sh 'ls -al'
+        }
+    }
+}
+return this;
