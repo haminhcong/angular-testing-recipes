@@ -1,7 +1,8 @@
 // workaround to check out the Jenkinsfile of the tag because parameters are not replaced
 // when using the "Pipeline script from SCM" option
+
 node{
-    stage('Checkout source code') {
+    stage('Checkout source code to load jenkinsfile') {
         echo "${env.WORKSPACE}"
         checkout changelog: true, poll: true, scm: [
                 $class                           : 'GitSCM', branches: [[name: "${env.gitlabAfter}"]],
