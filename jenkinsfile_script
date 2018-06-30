@@ -17,16 +17,23 @@ def angularAutoTest() {
             sh 'ls -al'
         }
 
-        stage("Unit test angular") {
-            // create npm_cache docker volume, then mount created volume to container in path /npm_cache
+        // create npm_cache docker volume, then mount created volume to container in path /npm_cache
 //            docker.image('angular/ngcontainer').inside('-v npm_cache:/npm_cache') {
-            docker.image('trion/ng-cli-karma').inside('-v npm_cache:/npm_cache') {
-                sh 'npm config set cache /npm_cache --global'
-                sh 'npm install'
-                sh 'ng test'
+        docker.image('trion/ng-cli-karma').inside('-v npm_cache:/npm_cache') {
+            stage('NPM Install') {
+                withEnv(["NPM_CONFIG_LOGLEVEL=warn"]) {
+                    sh 'npm config set cache /npm_cache --global'
+                    sh 'npm install'
+                }
+            }
+
+            stage("Unit test angular") {
+                withEnv(["CHROME_BIN=/usr/bin/chromium-browser"]) {
+                    sh 'ng test --progress=false --watch false'
+                }
+                junit '**/test-results.xml'
             }
         }
-
     }
 }
 
