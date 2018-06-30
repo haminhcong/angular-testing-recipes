@@ -30,7 +30,7 @@ def angularAutoTest() {
             stage("Unit test angular") {
                 withEnv(["CHROME_BIN=/usr/bin/chromium-browser"]) {
                     sh 'ng test --progress=false --watch false'
-                    junit '**/test-results.xml'
+                    junit '**/unit_test_result.xml'
                 }
             }
         }
