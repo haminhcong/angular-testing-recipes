@@ -17,6 +17,15 @@ def angularAutoTest() {
             sh 'ls -al'
         }
 
+        stage("Unit test angular") {
+            // create npm_cache docker volume, then mount created volume to container in path /npm_cache
+            docker.image('angular/ngcontainer').inside('-v npm_cache:/npm_cache') {
+                sh 'npm config set cache /npm_cache --global'
+                sh 'npm install'
+                sh 'ng test'
+            }
+        }
+
     }
 }
 
